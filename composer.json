@@ -1,0 +1,17 @@
+{
+  "require": {
+    "noahbuscher/macaw": "dev-master",
+    "illuminate/database": "5.1.*",
+    "filp/whoops": "^2.0",
+    "nette/mail": "^2.3",
+    "predis/predis": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "app"
+    },
+    "classmap": [
+      "services"
+    ]
+  }
+}
